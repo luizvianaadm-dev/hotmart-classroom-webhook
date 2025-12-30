@@ -1,0 +1,32 @@
+{
+  "name": "hotmart-classroom-webhook",
+  "version": "1.0.0",
+  "description": "Webhook automático para matricular alunos do Hotmart na turma do Google Classroom",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hotmart",
+    "classroom",
+    "webhook",
+    "automation"
+  ],
+  "author": "VORCON",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "jsonwebtoken": "^9.1.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
